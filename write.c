@@ -194,8 +194,7 @@ int main(int argc, char **argv) {
 // A simplified error handler for the Write system call.
 //
 // To minimize complexity, this simply exits if the number written
-//   to the file descriptor is less than intended. This is not the
-//   only way this could have been handled.
+//   to the file descriptor is less than intended.
 //
 // fd: file descriptor to write to
 // buf: buffer to write from
